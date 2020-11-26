@@ -1,0 +1,20 @@
+name: appcenter_distribute
+description: Visual Studio App Center (distribute) plugin for Flutter applications.
+version: 0.2.1
+authors: 
+  - Aloïs Deniel<alois.deniel@outlook.com>
+  - Damien Aicheh<damien.aicheh@gmail.com>
+
+homepage: https://github.com/aloisdeniel/flutter_plugin_appcenter
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.aloisdeniel.flutter.appcenter_distribute
+    pluginClass: AppcenterDistributePlugin
