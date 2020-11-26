@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter/foundation.dart' show defaultTargetPlatform;
 import 'package:flutter/foundation.dart' show TargetPlatform;
 
-class AppCenterCrashes {
+class AppCenterDistribute {
   static String get id => (defaultTargetPlatform == TargetPlatform.iOS)
       ? "MSDistribute"
       : "com.microsoft.appcenter.distribute.Distribute";
